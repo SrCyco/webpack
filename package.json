@@ -17,7 +17,8 @@
     "build:fonts": "webpack --config ./url-loader-fonts/webpack.config.js",
     "build:video": "webpack --config ./url-loader-video/webpack.config.js",
     "build:json": "webpack --config ./url-loader-json/webpack.config.js",
-    "build:react": "webpack --config ./react/webpack.config.js"
+    "build:react": "webpack --config ./react/webpack.config.js",
+    "build:sass": "webpack --config ./sass-loader/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -34,6 +35,8 @@
     "css-loader": "^2.1.0",
     "file-loader": "^3.0.1",
     "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "url-loader": "^1.1.2",
     "webpack": "^4.29.3",
