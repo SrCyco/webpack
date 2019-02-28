@@ -9,28 +9,6 @@ import React from 'react';
 import { render } from 'react-dom';
 import Teachers from './components/teachers.js';
 
-
-// function Teacher(){
-//     return(
-//         <li className="Teacher">
-//             {props.name}
-//             <a href={`https://twitter.com/${props.twitter}`}>{props.twitter}</a>
-//         </li>
-//     )
-// }
-
-// class Teachers extends Component{
-//     render(){
-//         return(
-//             <ul className="Teachers">
-//             {this.props.data.teachers.map(teacherData => {
-//                 return <Teacher {...teacherData}/>
-//             })}
-//             </ul>
-//         )
-//     }
-// }
-
 const $button = document.getElementById('dynamic-import');
 $button.addEventListener('click', async () => {
     

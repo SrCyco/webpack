@@ -6,7 +6,7 @@ const webpack = require('webpack');
 module.exports = {
     mode: 'development',
     entry: {
-        modules:['react','react-dom'],
+        modules: ['@babel/react','react-dom'],
     },
     output: {
         path: path.resolve(__dirname, "dist"),
