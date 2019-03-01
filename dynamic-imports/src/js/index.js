@@ -16,7 +16,7 @@ $button.addEventListener('click', async () => {
     alerta();
 });
 
-render(<Teachers data={data}/>, document.getElementById('container'))
+render(<Teachers data={data}/>, document.getElementById('container'));
 console.log(data);
 
 data.teachers.forEach(teacher => {
@@ -28,6 +28,7 @@ data.teachers.forEach(teacher => {
 
 document.write(messages.firstMessage);
 messages.delayedMessage();
+
 const img = document.createElement('img');
 img.setAttribute('src', platziImg);
 img.setAttribute('width', 50);
