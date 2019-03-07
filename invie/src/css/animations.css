@@ -1,6 +1,6 @@
-.flicker {
+/* .flicker {
 
-}
+} */
 
 .flicker-enter {
   animation-duration: .5s, .7s;
@@ -8,9 +8,9 @@
   animation-timing-function: linear, ease-in-out;
 }
 
-.flicker-enter-active {
+/* .flicker-enter-active {
 
-}
+} */
 
 .flicker-leave {
   animation-duration: .5s, .7s;
@@ -18,9 +18,9 @@
   animation-timing-function: linear, ease-in-out;
 }
 
-.flicker-leave-active {
+/* .flicker-leave-active {
 
-}
+} */
 
 
 @keyframes flicker {
